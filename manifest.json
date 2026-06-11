@@ -1,0 +1,10 @@
+{
+  "id": "native-search-plus-cn",
+  "name": "Native Search Plus",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "增强 Obsidian 原生搜索功能。",
+  "author": "SleepSheep",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

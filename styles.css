@@ -1,0 +1,11 @@
+/* 隐藏 Obsidian 原生搜索结果中的笔记名称；不改变搜索面板原有布局。 */
+body.native-search-plus-hide-note-names .workspace-leaf-content[data-type="search"] .search-result-file-title,
+body.native-search-plus-hide-note-names .workspace-leaf-content[data-type="search"] .tree-item-self.search-result-file-title {
+  display: none;
+}
+
+/* 去掉隐藏标题后可能残留的额外缩进，让结果更像连续列表。 */
+body.native-search-plus-hide-note-names .workspace-leaf-content[data-type="search"] .search-result-file-matches {
+  margin-inline-start: 0;
+  padding-inline-start: 0;
+}
