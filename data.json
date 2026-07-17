@@ -1,4 +1,4 @@
 {
-  "hideNoteNames": true,
-  "searchSelectedText": true
+  "hideNoteNames": false,
+  "searchSelectedText": false
 }
